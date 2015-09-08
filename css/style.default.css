@@ -1,0 +1,50 @@
+body {
+    font-size: 13px;
+    color: #636E7B;
+    background-color: #fff;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table.table-primary thead tr th, .table.table-success thead tr th, .table.table-danger thead tr th, .table.table-warning thead tr th, .table.table-info thead tr th, .table.table-dark thead tr th {
+    color: #fff;
+    border-bottom: 0;
+}
+.table-primary thead tr th {
+    background-color: #428BCA;
+}
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {    
+    border-top: 0px;
+    border-bottom: 1px solid #ddd;
+}
+.table.table-primary tbody tr:first-child td, .table.table-success tbody tr:first-child td, .table.table-danger tbody tr:first-child td, .table.table-warning tbody tr:first-child td, .table.table-info tbody tr:first-child td, .table.table-dark tbody tr:first-child td {
+    border-top: 0;
+}
+.panel-signin .panel-body, .panel-signup .panel-body {
+    padding: 40px;
+}
+.panel-signin {
+    width: 400px;
+}
+.panel-signin, .panel-signup {
+    margin: 80px auto 0 auto;
+}
+.form-control {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+    height: auto;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 13px;
+}
